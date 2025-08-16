@@ -1,0 +1,147 @@
+{
+  "typography": {
+    "fontFamily": {
+      "base": {
+        "value": "Roboto, system-ui, -apple-system, sans-serif",
+        "type": "fontFamily"
+      }
+    },
+    "fontWeight": {
+      "thin": {
+        "value": "100",
+        "type": "fontWeight"
+      },
+      "extraLight": {
+        "value": "200",
+        "type": "fontWeight"
+      },
+      "light": {
+        "value": "300",
+        "type": "fontWeight"
+      },
+      "regular": {
+        "value": "400",
+        "type": "fontWeight"
+      },
+      "medium": {
+        "value": "500",
+        "type": "fontWeight"
+      },
+      "semiBold": {
+        "value": "600",
+        "type": "fontWeight"
+      },
+      "bold": {
+        "value": "700",
+        "type": "fontWeight"
+      },
+      "extraBold": {
+        "value": "800",
+        "type": "fontWeight"
+      },
+      "black": {
+        "value": "900",
+        "type": "fontWeight"
+      }
+    },
+    "fontSize": {
+      "xs": {
+        "value": "0.625rem",
+        "type": "fontSize",
+        "description": "10px - navLabel, overline"
+      },
+      "sm": {
+        "value": "0.75rem",
+        "type": "fontSize",
+        "description": "12px - caption"
+      },
+      "base": {
+        "value": "0.875rem",
+        "type": "fontSize",
+        "description": "14px - body2"
+      },
+      "md": {
+        "value": "1rem",
+        "type": "fontSize",
+        "description": "16px - body1, button sm"
+      },
+      "lg": {
+        "value": "1.125rem",
+        "type": "fontSize",
+        "description": "18px - subtitle2"
+      },
+      "xl": {
+        "value": "1.25rem",
+        "type": "fontSize",
+        "description": "20px - subtitle1, button md"
+      },
+      "2xl": {
+        "value": "1.375rem",
+        "type": "fontSize",
+        "description": "22px - h10"
+      },
+      "3xl": {
+        "value": "1.5rem",
+        "type": "fontSize",
+        "description": "24px - h9"
+      },
+      "4xl": {
+        "value": "1.75rem",
+        "type": "fontSize",
+        "description": "28px - h8, button lg"
+      },
+      "5xl": {
+        "value": "2.125rem",
+        "type": "fontSize",
+        "description": "34px - h7"
+      },
+      "6xl": {
+        "value": "2.5rem",
+        "type": "fontSize",
+        "description": "40px - h6"
+      },
+      "7xl": {
+        "value": "3rem",
+        "type": "fontSize",
+        "description": "48px - h5"
+      },
+      "8xl": {
+        "value": "3.375rem",
+        "type": "fontSize",
+        "description": "54px - h4"
+      },
+      "9xl": {
+        "value": "3.75rem",
+        "type": "fontSize",
+        "description": "60px - h3"
+      },
+      "10xl": {
+        "value": "4.75rem",
+        "type": "fontSize",
+        "description": "76px - h2"
+      },
+      "11xl": {
+        "value": "6rem",
+        "type": "fontSize",
+        "description": "96px - h1"
+      }
+    },
+    "lineHeight": {
+      "base": {
+        "value": "1.171875",
+        "type": "lineHeight",
+        "description": "Consistent line height used across all text styles"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": ["tokens/primitives/**/*.json"],
+  "platforms": {
+    "css": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "size/rem"],
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "primitives.css",
+          "format": "css/variables",
+          "options": {
+            "selector": ":root"
+          }
+        }
+      ]
+    }
+  }
+}

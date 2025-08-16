@@ -1,0 +1,24 @@
+{
+  "source": ["tokens/primitives/**/*.json", "tokens/semantic/**/*.json"],
+  "platforms": {
+    "css": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "size/rem"],
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "semantic.css",
+          "format": "css/variables",
+          "filter": {
+            "attributes": {
+              "category": "text"
+            }
+          },
+          "options": {
+            "selector": ":root",
+            "outputReferences": true
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@stingray/design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens for Stingray applications",
+  "main": "dist/design-tokens.css",
+  "style": "dist/design-tokens.css",
+  "files": [
+    "dist",
+    "docs"
+  ],
+  "scripts": {
+    "build": "style-dictionary build && style-dictionary build --config semantic.config.json",
+    "build:primitives": "style-dictionary build",
+    "build:semantic": "style-dictionary build --config semantic.config.json",
+    "watch": "style-dictionary build --watch",
+    "viewer": "npm run build && open token-viewer.html",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "design-tokens",
+    "css-variables",
+    "style-dictionary",
+    "stingray",
+    "component-library"
+  ],
+  "author": "rvd2pwipwip",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^3.8.0"
+  }
+}
