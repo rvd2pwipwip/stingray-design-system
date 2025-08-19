@@ -33,13 +33,23 @@
           }
         }
       },
-      "80": {
-        "value": "rgba(0, 0, 0, 0.8)",
+      "05": {
+        "value": "rgba(0, 0, 0, 0.05)",
         "type": "color",
         "$extensions": {
           "mode": {
-            "light": "rgba(0, 0, 0, 0.8)",
-            "dark": "rgba(255, 255, 255, 0.8)"
+            "light": "rgba(0, 0, 0, 0.05)",
+            "dark": "rgba(255, 255, 255, 0.05)"
+          }
+        }
+      },
+      "10": {
+        "value": "rgba(0, 0, 0, 0.1)",
+        "type": "color",
+        "$extensions": {
+          "mode": {
+            "light": "rgba(0, 0, 0, 0.1)",
+            "dark": "rgba(255, 255, 255, 0.1)"
           }
         }
       },
@@ -50,6 +60,46 @@
           "mode": {
             "light": "rgba(0, 0, 0, 0.3)",
             "dark": "rgba(255, 255, 255, 0.3)"
+          }
+        }
+      },
+      "50": {
+        "value": "rgba(0, 0, 0, 0.5)",
+        "type": "color",
+        "$extensions": {
+          "mode": {
+            "light": "rgba(0, 0, 0, 0.5)",
+            "dark": "rgba(255, 255, 255, 0.5)"
+          }
+        }
+      },
+      "70": {
+        "value": "rgba(0, 0, 0, 0.7)",
+        "type": "color",
+        "$extensions": {
+          "mode": {
+            "light": "rgba(0, 0, 0, 0.7)",
+            "dark": "rgba(255, 255, 255, 0.7)"
+          }
+        }
+      },
+      "80": {
+        "value": "rgba(0, 0, 0, 0.8)",
+        "type": "color",
+        "$extensions": {
+          "mode": {
+            "light": "rgba(0, 0, 0, 0.8)",
+            "dark": "rgba(255, 255, 255, 0.8)"
+          }
+        }
+      },
+      "90": {
+        "value": "rgba(0, 0, 0, 0.9)",
+        "type": "color",
+        "$extensions": {
+          "mode": {
+            "light": "rgba(0, 0, 0, 0.9)",
+            "dark": "rgba(255, 255, 255, 0.9)"
           }
         }
       }
