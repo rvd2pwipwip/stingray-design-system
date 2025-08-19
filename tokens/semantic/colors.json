@@ -1,0 +1,78 @@
+{
+  "color": {
+    "background": {
+      "light": {
+        "value": "{color.white}",
+        "type": "color",
+        "$extensions": {
+          "mode": {
+            "light": "{color.white}",
+            "dark": "{color.black}"
+          }
+        }
+      },
+      "dark": {
+        "value": "{color.black}",
+        "type": "color",
+        "$extensions": {
+          "mode": {
+            "light": "{color.black}",
+            "dark": "{color.white}"
+          }
+        }
+      }
+    },
+    "onBackground": {
+      "primary": {
+        "value": "{color.black}",
+        "type": "color",
+        "$extensions": {
+          "mode": {
+            "light": "{color.black}",
+            "dark": "{color.white}"
+          }
+        }
+      },
+      "80": {
+        "value": "rgba(0, 0, 0, 0.8)",
+        "type": "color",
+        "$extensions": {
+          "mode": {
+            "light": "rgba(0, 0, 0, 0.8)",
+            "dark": "rgba(255, 255, 255, 0.8)"
+          }
+        }
+      },
+      "30": {
+        "value": "rgba(0, 0, 0, 0.3)",
+        "type": "color",
+        "$extensions": {
+          "mode": {
+            "light": "rgba(0, 0, 0, 0.3)",
+            "dark": "rgba(255, 255, 255, 0.3)"
+          }
+        }
+      }
+    },
+    "accent": {
+      "primary": {
+        "value": "{color.stingray.500}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{color.stingray.600}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.stingray.700}",
+        "type": "color"
+      }
+    },
+    "onAccent": {
+      "primary": {
+        "value": "{color.white}",
+        "type": "color"
+      }
+    }
+  }
+}
